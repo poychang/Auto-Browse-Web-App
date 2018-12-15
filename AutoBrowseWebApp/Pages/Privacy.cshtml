@@ -1,4 +1,4 @@
-﻿@page
+@page
 @model PrivacyModel
 @{
     ViewData["Title"] = "Privacy Policy";
@@ -6,3 +6,5 @@
 <h2>@ViewData["Title"]</h2>
 
 <p>Use this page to detail your site's privacy policy.</p>
+
+<div class="alert alert-danger" role="alert">@Model.ActionResult</div>

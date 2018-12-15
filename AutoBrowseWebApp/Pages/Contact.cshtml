@@ -1,4 +1,4 @@
-﻿@page
+@page
 @model ContactModel
 @{
     ViewData["Title"] = "Contact";
@@ -17,3 +17,5 @@
     <strong>Support:</strong> <a href="mailto:Support@example.com">Support@example.com</a><br />
     <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
 </address>
+
+<div class="alert alert-danger" role="alert">@Model.ActionResult</div>
